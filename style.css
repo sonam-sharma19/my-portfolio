@@ -93,3 +93,52 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+/*Styling about page*/
+
+.about,
+.education,
+.learning,
+.career-goal,
+.what-i-do {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 10px;
+}
+
+.about h3,
+.education h3,
+.learning h3,
+.career-goal h3,
+.what-i-do h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p,
+.career-goal p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.education-card,
+.learning-card,
+.work-card {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: #f5f5f5;
+}
+
+.education-card h4,
+.learning-card h4,
+.work-card h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.education-card p,
+.learning-card p,
+.work-card p {
+    line-height: 1.6;
+}
